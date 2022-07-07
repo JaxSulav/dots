@@ -1,3 +1,11 @@
 *
 */
 !.gitignore
+!i3
+!ascii
+!guake
+!neofetch
+!rofi
+!terminator
+!picom.conf
+!.zshrc
