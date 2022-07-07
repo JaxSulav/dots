@@ -1,0 +1,54 @@
+[global_config]
+  geometry_hinting = True
+  title_transmit_fg_color = "#000000"
+  title_transmit_bg_color = "#73d216"
+  title_receive_fg_color = "#a40000"
+  title_inactive_bg_color = "#888a85"
+  inactive_color_offset = 0.876436781609
+  enabled_plugins = CustomCommandsMenu, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+  title_use_system_font = False
+  title_font = Source Code Variable Ultra-Light 9
+[keybindings]
+  move_tab_right = <Primary><Shift>Page_Down
+  move_tab_left = <Primary><Shift>Page_Up
+  next_tab = <Alt>k
+  prev_tab = <Alt>j
+  next_profile = <Primary>n
+  previous_profile = <Primary>p
+[profiles]
+  [[default]]
+    background_darkness = 0.6
+    cursor_color = "#aaaaaa"
+    font = FantasqueSansMono Nerd Font 11
+    foreground_color = "#ef2929"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#fce94f:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+    copy_on_selection = True
+  [[darkred]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#cc0000"
+    scrollback_infinite = True
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[greenblack]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#00ff00"
+    scrollback_infinite = True
+  [[grey]]
+    cursor_color = "#aaaaaa"
+    scrollback_infinite = True
+  [[blackred]]
+    visible_bell = True
+    cursor_color = "#aaaaaa"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#edd400:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
