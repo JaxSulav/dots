@@ -53,7 +53,7 @@ new_window pixel 1
 # hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 6
+gaps inner 8
 gaps outer 4
 #smart_gaps on
 
@@ -384,13 +384,14 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 #exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id feh --bg-fill /home/sulav/Pictures/accesspng/7507.png
+exec --no-startup-id feh --bg-fill /home/sulav/Pictures/accesspng/22.png
 
 # set powersavings for display:
 #exec --no-startup-id xset s off dpms 
 
 # disable power saving (for example if using xscreensaver)
 exec --no-startup-id xset -dpms
+exec --no-startup-id xset s off
 
 # use xautolock to use autosuspend rules for mobile devices
 # https://wiki.archlinux.org/title/Session_lock#xautolock
