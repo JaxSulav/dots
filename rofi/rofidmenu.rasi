@@ -16,13 +16,13 @@ configuration {
 @import "~/.config/rofi/arc_dark_transparent_colors.rasi"
 
 window {
-    background-color: @background;
+    background-color: black;
     border:           0;
     padding:          30;
 }
 listview {
     lines:                          10;
-    columns:                        3;
+    columns:                        1;
 }
 mainbox {
     border:  0;

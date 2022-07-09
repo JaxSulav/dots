@@ -19,7 +19,8 @@ zstyle :compinstall filename '/home/sulav/.zshrc'
 autoload -Uz compinit
 compinit
 
-CASE_SENSITIVE="true"
+# Case insensitive
+zstyle ':completion:*'  matcher-list 'm:{a-z}={A-Z}'
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
