@@ -9,3 +9,6 @@
 !terminator
 !picom.conf
 !.zshrc
+!.zsh
+!.vimrc
+!.vim
